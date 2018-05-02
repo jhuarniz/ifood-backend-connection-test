@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: cache-service
+  datasource:
+    name: mysqlds
+    url: jdbc:mysql://localhost:33306/ignite?useSSL=false&useUnicode=true
+    username: ignite
+    password: ignite123
+
+server:
+  port: ${PORT:8090}
+
+management:
+  security:
+    enabled: false

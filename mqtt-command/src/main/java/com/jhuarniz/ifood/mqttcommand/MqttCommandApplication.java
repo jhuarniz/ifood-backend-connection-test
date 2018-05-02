@@ -1,0 +1,12 @@
+package com.jhuarniz.ifood.mqttcommand;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class MqttCommandApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(MqttCommandApplication.class, args);
+    }
+}

@@ -1,0 +1,7 @@
+zuul:
+  #Service will be mapped under the /api URI
+  prefix: /api
+  routes:
+    customer-service:
+      path: /customer-service/**
+      url: http://localhost:9098
